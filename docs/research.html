@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./publications.html">Publications</a>
+</li>
+<li>
+  <a href="./research.html">Research</a>
+</li>
+<li>
+  <a href="./files/cv.pdf">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<p>In the <em>capacitated facility location problem with customer
+preferences (CFLP-CP)</em>, we are given a set of customers and
+potential facility locations. Each customer is associated with a demand,
+each facility is associated with a capacity and opening costs. Serving a
+customer at a facility incurs certain cost, and we assume that each
+customer has individual preferences regarding the facilities they want
+to be served at. The goal is to open facilities and assign customers so
+that each customer is served at their most preferred open facility, the
+capacity of each open facility is respected, and the total cost of
+opening facilities and assigning customers is minimised. Real-world
+applications are, for example, the location of preventive care
+facilities.</p>
+<div id="computational-complexity" class="section level4">
+<h4>Computational complexity</h4>
+<p>In a joint project with Christina Büsing and <a
+href="https://combi.rwth-aachen.de/en/team/timo-gersing">Timo
+Gersing</a>, we study combinatorial structures of the CFLP-CP. While the
+problem’s strong NP-completeness is expected, we observe that the
+structure of the customer preferences has an important impact on the
+problem’s complexity. If each customer has a strict preference order,
+the problem’s feasibility can be determined in polynomial time.
+Determining optimality, however, is NP-hard as we prove via a reduction
+from vertex cover. If preferences are defined by assignment costs, the
+problem can be solved in polynomial time if assignment costs are defined
+on a path.</p>
+<ul>
+<li><div class="tight-spacing2">
+<p><a
+href="https://optimization-online.org/wp-content/uploads/2024/12/OO___EPLPO.pdf">Insights
+into the computational complexity of the single source capacitated
+facility location problem with customer preferences.</a></p>
+<p>C. Büsing, T. Gersing, S. Wrede. <em>Preprint submitted
+(2025).</em></p>
+</div></li>
+<li><div class="tight-spacing2">
+<p><a
+href="https://openproceedings.org/2022/conf/inoc/INOC_2022_paper_22.pdf">Analysing
+the complexity of facility location problems with capacities, revenues,
+and closest assignments</a></p>
+<p>C. Büsing, T. Gersing, S. Wrede. <em>INOC open proceedings
+(2022)</em></p>
+</div></li>
+</ul>
+</div>
+<div id="exact-methods" class="section level4">
+<h4>Exact methods</h4>
+<p>Together with Christina Büsing and <a
+href="https://research.vu.nl/en/persons/markus-leitner/">Markus
+Leitner</a>, we study preprocessing and valid inequalities to improve
+<em>Gurobi</em>’s performance when solving the CFLP-CP. Our inequalities
+utilise information provided by the customer preferences. For example,
+if a set of customers forms a cover of a facility <span
+class="math inline">\(j\)</span>, i.e., at least one customer must not
+be served at <span class="math inline">\(j\)</span> due to capacity
+restrictions, we know that any of these customers has to be served
+either at <span class="math inline">\(j\)</span> or at a facility they
+prefer over <span class="math inline">\(j\)</span>. We formulate this
+observation as an inequality and further strengthen it. We observe a
+positive impact of our preprocessing and inequalities in a computational
+study, especially if preferences are defined by assignment costs.</p>
+<p>Together with Christina Büsing and <a
+href="https://combi.rwth-aachen.de/en/team/felix-engelhardt">Felix
+Engelhardt</a>, we study a combinatorial branch-and-bound algorithm for
+the CFLP-CP with strict preference ordering, for which a feasible
+solution can be determined in polynomial time. The difficulty lies in
+obtaining strong dual bounds. Here, we follow two approaches: In the
+first approach, we use a Lagrangian relaxation of the problem’s IP
+formulation and solve it combinatorially. In the second approach, we
+solve an instance of a minimum-cost-flow problem which gives us a lower
+bound on combined assignment and opening costs. Core elements of our
+algorithm are domain propagation of the branching decisions, which are
+made on the location decisions, and a custom variable selection strategy
+based on search space reduction. Our algorithm serves as a reliable
+alternative to <em>Gurobi</em> if limited RAM is available,
+outperforming it for larger instances consisting of many (<span
+class="math inline">\(500+\)</span>) customers and potential facility
+locations, respectively.</p>
+<ul>
+<li><div class="tight-spacing2">
+<p>A combinatorial branch-and-bound algorithm for the capacitated
+facility location problem under strict customer preferences</p>
+<p>C. Büsing, F. Engelhardt, S. Wrede. <em>Preprint available from early
+November 2025 onward.</em></p>
+</div></li>
+<li><div class="tight-spacing2">
+<p><a
+href="https://publications.rwth-aachen.de/record/1010742/files/1010742.pdf">Cover-based
+inequalities for the single-source capacitated facility location problem
+with customer preferences.</a></p>
+<p>C. Büsing, M. Leitner, S. Wrede. <em>Computers and Operations
+Research (2025).</em></p>
+</div></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
