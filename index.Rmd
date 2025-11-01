@@ -1,0 +1,70 @@
+---
+title: " "
+format: html
+css: styles.css
+output: 
+  html_document:
+    toc: FALSE
+---
+
+
+
+:::{.columns}
+
+::: {.column width="70%"}
+
+##
+# About me
+##
+
+I'm a PhD student with [Christina Büsing](https://combi.rwth-aachen.de/en/team/christina-buesing) at the Combinatorial Optimization group at RWTH Aachen. 
+
+##
+##
+
+### Research Interests
+
+##
+
+I study a variant of the capacitated facility location problem in which customers have individual preferences regarding the facilities and each customer has to be served at their most preferred open facility.
+Together with Christina Büsing and [Timo Gersing](https://combi.rwth-aachen.de/en/team/timo-gersing), we study combinatorial structures. 
+In a joint project with Christina Büsing and [Markus Leitner](https://research.vu.nl/en/persons/markus-leitner/), we study preprocessing and valid inequalities to improve *Gurobi*'s performance when solving the problem.
+Together with Christina Büsing and [Felix Engelhardt](https://combi.rwth-aachen.de/en/team/felix-engelhardt), we study a combinatorial branch-and-bound algorithm if each customer has a strict preference ordering of the facilities.
+
+
+
+A list of my research publications including preprints can be found [here](./publications.html). Further insights into my research can be found [here](./research.html)
+
+
+:::
+
+::: {.column width="2%"}
+
+:::
+
+
+::: {.column width="28%"}
+
+##
+# Sophia Wrede
+##
+PhD Candidate
+
+Teaching and Research Area Combinatorial Optimization
+
+RWTH Aachen University
+
+####
+
+:::{.tight-spacing}
+**Office**: Im Süsterfeld 9, 52072 Aachen
+
+**Email**: wrede(AT)combi.rwth-aachen.de
+:::
+
+[Google Scholar Profile](https://scholar.google.com/citations?user=2UvGTRUAAAAJ&hl=en)
+
+![](./files/me.JPG)
+:::
+
+:::

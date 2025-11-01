@@ -1,0 +1,44 @@
+---
+title: "Recommended restaurants, cafés, and bars"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+In the following, you find a list of restaurants, cafés, and bars that won my heart.
+If you are in the neighbourhood, consider checking out these places. In case you manage to go to any of these places, let me know what you think!
+
+## Aachen
+
+Aachen has a surprisingly high density of very good Chinese restaurants! This is really convenient for me as I like Chinese food. 
+
+- [City garden](https://www.google.com/search?client=firefox-b-d&channel=entpr&q=city+garden+aachen): Come here for very nice all-you-can-eat Chinese Hot Pot! While I've been to nice Hot Pot restaurants in Düsseldorf, Munich, and Paris, this place stays my favourite. Spicy broth is a must.
+- [Grotesque bar](http://www.grotesque-bar.de/): It's an Absinth-bar! The staff is very friendly and always prepared for a good recommendation. The location itself is also very charming, feels like someone's livingroom. I really like their cocktail "Call of Cthulhu", which has a creamy consistency and a slightly sweet flavor.
+- [Maranello]():
+- [Mostard]():
+- [Xi'An](https://xiankueche.eatbu.com/?lang=de): Delicious Chinese hand-pulled noodles. I recommend the Biangbiang-noodles, which have a nice balance of spiciness and Chinese black vinegar.
+
+
+
+
+
+## Düsseldorf
+
+I guess, I don't have to mention that Düsseldorf is famous for its "Little Tokyo" close to the central train station. Going there is definitively a nice experience with all the Japanese restaurants, bars, supermarkets, and everyday shops. However, if you come at the wrong time, waiting times are high. 
+If you are not in the mood to wait so much, consider checking out one of the following places (still, they are good, just less hyped).
+
+- [Hülsmann](https://www.brasserie-huelsmann.de/):
+- [Korea Haus](https://korea-haus-duesseldorf.eatbu.com/?lang=de): This place is right next to "Little Tokyo". Korea Haus offers Korean BBQ, where you have to grill your own food. It's a nice activity with friends. However, if you are one of those people who don't want to prepare their own food at a restaurant, fear not: You can also order food that is ready-to-eat.
+- [Robert.](https://restaurantrobert.de/):
+- [Three Kingdoms]():
+
+
+
+
+## Munich
+
+- [Tushita Teehaus](https://teehaus.tushita.eu/teehaus): This place offers a huge variety of teas, like special Pu Erh teas, white teas, Oolong teas, etc. Chinese teas are served _Gongfu_-style. That is, you brew a lot of tea with little water for a few seconds, and repeat this process a few times. In each brew, the tea slightly changes its flavour. It's a great place to rest or learn about tea. I recommend the Alishan High Mountain Oolong tea.
+- [Yanyou](http://www.yanyou.de/): More delicious Chinese food! I really enjoyed their Home style Tofu.
+
+ 

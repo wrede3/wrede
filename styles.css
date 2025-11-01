@@ -1,0 +1,15 @@
+.tight-spacing p {
+  line-height: 0.5; /* Tighter line spacing */
+}
+
+.tight-spacing2 p {
+  line-height: 0.75; /* Tighter line spacing */
+}
+
+.tight-spacing-one p {
+  line-height: 1; /* Tighter line spacing */
+}
+
+.large-spacing p {
+  line-height: 2; /* Tighter line spacing */
+}

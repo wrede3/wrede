@@ -1,0 +1,57 @@
+---
+title: "Publications"
+format: html
+css: styles.css
+---
+
+
+#### Peer-reviewed Articles and Preprints
+
+- 
+:::{.tight-spacing2}
+  A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences
+
+  C. Büsing, F. Engelhardt, S. Wrede.
+  _Preprint available from early November 2025 onward._ 
+:::
+- 
+:::{.tight-spacing2}
+  [Insights into the computational complexity of the single source capacitated facility location problem with customer preferences.](https://optimization-online.org/wp-content/uploads/2024/12/OO___EPLPO.pdf)
+
+  C. Büsing, T. Gersing, S. Wrede.
+  _Preprint submitted (2025)._
+:::
+- 
+:::{.tight-spacing2}
+  [Minimum-peak-cost flows over time.](https://onlinelibrary.wiley.com/doi/full/10.1002/net.70001)
+
+  M. Anapolska, E. Ahrens, C. Büsing, F. Engelhardt, T. Gersing, C. Mathwieser, S. Schmitz, S. Wrede.
+  _Networks (2025)._
+:::
+- 
+:::{.tight-spacing2}
+[Cover-based inequalities for the single-source capacitated facility location problem with customer preferences.](https://publications.rwth-aachen.de/record/1010742/files/1010742.pdf)
+
+  C. Büsing, M. Leitner, S. Wrede.
+  _Computers and Operations Research (2025)._
+:::
+- 
+:::{.tight-spacing2}
+  [Decision-support systems for ambulatory care, including pandemic requirements: using mathematically optimized solutions.](https://link.springer.com/article/10.1186/s12911-022-01866-x)
+
+  N. Leithäuser, D. Adelhütte, K. Braun, C. Büsing, M. Comis, T. Gersing, S. Johann, A. Koster, S. Krumke, F. Liers, E. Schmidt, J. Schneider,
+  
+  M. Streicher, S. Tschuppik, S. Wrede.
+  _BMC Medical Informatics and Decision Making (2022)._
+:::
+
+  
+#### Proceedings
+
+- 
+:::{.tight-spacing2}
+  [Analysing the complexity of facility location problems with capacities, revenues, and closest assignments](https://openproceedings.org/2022/conf/inoc/INOC_2022_paper_22.pdf)
+  
+  C. Büsing, T. Gersing, S. Wrede.
+  _INOC open proceedings (2022)_
+:::

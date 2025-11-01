@@ -1,0 +1,15 @@
+name: "Mywebsite"
+title: "Home"
+type: inverse
+left:
+  - text: "Publications"
+    href: ./publications.html
+  - text: "Research"
+    href: ./research.html
+  - text: "CV"
+    href: ./files/cv.pdf
+  #- text: "Some interesting places"
+  #  href: ./places.html
+#right:
+#  - icon: fa-github fa-lg
+#    href: https://github.com/githubusername/mywebsite
