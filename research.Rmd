@@ -8,6 +8,7 @@ css: styles.css
 In the _capacitated facility location problem with customer preferences (CFLP-CP)_, we are given a set of customers and potential facility locations. Each customer is associated with a demand, each facility is associated with a capacity and opening costs. Serving a customer at a facility incurs certain cost, and we assume that each customer has individual preferences regarding the facilities they want to be served at. The goal is to open facilities and assign customers so that each customer is served at their most preferred open facility, the capacity of each open facility is respected, and the total cost of opening facilities and assigning customers is minimised.
 Real-world applications are, for example, the location of preventive care facilities.
 
+##
 
 #### Computational complexity
 
@@ -31,6 +32,10 @@ If preferences are defined by assignment costs, the problem can be solved in pol
   _INOC open proceedings (2022)_
 :::
 
+
+##
+##
+
 #### Exact methods
 Together with Christina Büsing and [Markus Leitner](https://research.vu.nl/en/persons/markus-leitner/), we study preprocessing and valid inequalities to improve *Gurobi*'s performance when solving the CFLP-CP.
 Our inequalities utilise information provided by the customer preferences. For example, if a set of customers forms a cover of a facility $j$, i.e., at least one customer must not be served at $j$ due to capacity restrictions, we know that any of these customers has to be served either at $j$ or at a facility they prefer over $j$. 
@@ -44,15 +49,15 @@ Here, we follow two approaches:
 In the first approach, we use a Lagrangian relaxation of the problem's IP formulation and solve it combinatorially. 
 In the second approach, we solve an instance of a minimum-cost-flow problem which gives us a lower bound on combined assignment and opening costs. 
 Core elements of our algorithm are domain propagation of the branching decisions, which are made on the location decisions, and a custom variable selection strategy based on search space reduction.
-Our algorithm serves as a reliable alternative to *Gurobi* if limited RAM is available, outperforming it for larger instances consisting of many ($500+$) customers and potential facility locations, respectively.
+Our algorithm serves as a reliable alternative to *Gurobi* if RAM is limited, outperforming it for larger instances consisting of many ($500+$) customers and potential facility locations, respectively.
 
 
 - 
 :::{.tight-spacing2}
-  A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences
+  [A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences](./files/preprint.pdf)
 
   C. Büsing, F. Engelhardt, S. Wrede.
-  _Preprint available from early November 2025 onward._ 
+  _Preprint (2025)._ 
 :::
 -
 :::{.tight-spacing2}

@@ -9,10 +9,10 @@ css: styles.css
 
 - 
 :::{.tight-spacing2}
-  A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences
+  [A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences](./files/preprint.pdf)
 
   C. Büsing, F. Engelhardt, S. Wrede.
-  _Preprint available from early November 2025 onward._ 
+  _Preprint (2025)._ 
 :::
 - 
 :::{.tight-spacing2}
@@ -46,6 +46,8 @@ css: styles.css
 :::
 
   
+##
+
 #### Proceedings
 
 - 

@@ -33,7 +33,7 @@ Together with Christina Büsing and [Felix Engelhardt](https://combi.rwth-aachen
 
 
 
-A list of my research publications including preprints can be found [here](./publications.html). Further insights into my research can be found [here](./research.html)
+A list of my research publications including preprints can be found [here](./publications.html). Further information on my research can be found [here](./research.html).
 
 
 :::
@@ -48,7 +48,7 @@ A list of my research publications including preprints can be found [here](./pub
 ##
 # Sophia Wrede
 ##
-PhD Candidate
+PhD Student
 
 Teaching and Research Area Combinatorial Optimization
 
