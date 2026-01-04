@@ -273,17 +273,16 @@ facilities.</p>
 <h2></h2>
 <div id="computational-complexity" class="section level4">
 <h4>Computational complexity</h4>
-<p>In a joint project with Christina Büsing and <a
-href="https://combi.rwth-aachen.de/en/team/timo-gersing">Timo
-Gersing</a>, we study combinatorial structures of the CFLP-CP. While the
-problem’s strong NP-completeness is expected, we observe that the
-structure of the customer preferences has an important impact on the
-problem’s complexity. If each customer has a strict preference order,
-the problem’s feasibility can be determined in polynomial time.
-Determining optimality, however, is NP-hard as we prove via a reduction
-from vertex cover. If preferences are defined by assignment costs, the
-problem can be solved in polynomial time if assignment costs are defined
-on a path.</p>
+<p>In a joint project with Christina Büsing and Timo Gersing, we study
+combinatorial structures of the CFLP-CP. While the problem’s strong
+NP-completeness is expected, we observe that the structure of the
+customer preferences has an important impact on the problem’s
+complexity. If each customer has a strict preference order, the
+problem’s feasibility can be determined in polynomial time. Determining
+optimality, however, is NP-hard as we prove via a reduction from vertex
+cover. If preferences are defined by assignment costs, the problem can
+be solved in polynomial time if assignment costs are defined on a
+path.</p>
 <ul>
 <li><div class="tight-spacing2">
 <p><a
@@ -311,12 +310,11 @@ and closest assignments</a></p>
 <h2></h2>
 <div id="exact-methods" class="section level4">
 <h4>Exact methods</h4>
-<p>Together with Christina Büsing and <a
-href="https://research.vu.nl/en/persons/markus-leitner/">Markus
-Leitner</a>, we study preprocessing and valid inequalities to improve
-<em>Gurobi</em>’s performance when solving the CFLP-CP. Our inequalities
-utilise information provided by the customer preferences. For example,
-if a set of customers forms a cover of a facility <span
+<p>Together with Christina Büsing and Markus Leitner, we study
+preprocessing and valid inequalities to improve <em>Gurobi</em>’s
+performance when solving the CFLP-CP. Our inequalities utilise
+information provided by the customer preferences. For example, if a set
+of customers forms a cover of a facility <span
 class="math inline">\(j\)</span>, i.e., at least one customer must not
 be served at <span class="math inline">\(j\)</span> due to capacity
 restrictions, we know that any of these customers has to be served
@@ -325,28 +323,26 @@ prefer over <span class="math inline">\(j\)</span>. We formulate this
 observation as an inequality and further strengthen it. We observe a
 positive impact of our preprocessing and inequalities in a computational
 study, especially if preferences are defined by assignment costs.</p>
-<p>Together with Christina Büsing and <a
-href="https://combi.rwth-aachen.de/en/team/felix-engelhardt">Felix
-Engelhardt</a>, we study a combinatorial branch-and-bound algorithm for
-the CFLP-CP with strict preference ordering, for which a feasible
-solution can be determined in polynomial time. The difficulty lies in
-obtaining strong dual bounds. Here, we follow two approaches: In the
-first approach, we use a Lagrangian relaxation of the problem’s IP
-formulation and solve it combinatorially. In the second approach, we
-solve an instance of a minimum-cost-flow problem which gives us a lower
-bound on combined assignment and opening costs. Core elements of our
-algorithm are domain propagation of the branching decisions, which are
-made on the location decisions, and a custom variable selection strategy
-based on search space reduction. Our algorithm serves as a reliable
-alternative to <em>Gurobi</em> if RAM is limited, outperforming it for
-larger instances consisting of many (<span
-class="math inline">\(500+\)</span>) customers and potential facility
-locations, respectively.</p>
+<p>Together with Christina Büsing and Felix Engelhardt, we study a
+combinatorial branch-and-bound algorithm for the CFLP-CP with strict
+preference ordering, for which a feasible solution can be determined in
+polynomial time. The difficulty lies in obtaining strong dual bounds.
+Here, we follow two approaches: In the first approach, we use a
+Lagrangian relaxation of the problem’s IP formulation and solve it
+combinatorially. In the second approach, we solve an instance of a
+minimum-cost-flow problem which gives us a lower bound on combined
+assignment and opening costs. Core elements of our algorithm are domain
+propagation of the branching decisions, which are made on the location
+decisions, and a custom variable selection strategy based on search
+space reduction. Our algorithm serves as a reliable alternative to
+<em>Gurobi</em> if RAM is limited, outperforming it for larger instances
+consisting of many (<span class="math inline">\(500+\)</span>) customers
+and potential facility locations, respectively.</p>
 <ul>
 <li><div class="tight-spacing2">
-<p><a href="./files/preprint.pdf">A combinatorial branch-and-bound
-algorithm for the capacitated facility location problem under strict
-customer preferences</a></p>
+<p><a href="https://optimization-online.org/?p=32480">A combinatorial
+branch-and-bound algorithm for the capacitated facility location problem
+under strict customer preferences</a></p>
 <p>C. Büsing, F. Engelhardt, S. Wrede. <em>Preprint (2025).</em></p>
 </div></li>
 <li><div class="tight-spacing2">

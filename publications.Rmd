@@ -9,10 +9,10 @@ css: styles.css
 
 - 
 :::{.tight-spacing2}
-  [A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences](./files/preprint.pdf)
+  [A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences](https://optimization-online.org/?p=32480)
 
   C. Büsing, F. Engelhardt, S. Wrede.
-  _Preprint (2025)._ 
+  _Preprint submitted (2025)._ 
 :::
 - 
 :::{.tight-spacing2}
@@ -50,10 +50,30 @@ css: styles.css
 
 #### Proceedings
 
+
+- 
+:::{.tight-spacing2}
+  [The Computational and Mathematical Modeling Program (CAMMP) – Lessons Learned on Interdisciplinary Challenge-Based Learning](https://zenodo.org/records/17631434)
+  
+  F. Engelhardt, S. Wrede, S. Schönbrodt, C. Büsing, B. Stamm.
+  _SEFI 53rd Annual Conference (2025)._
+:::
 - 
 :::{.tight-spacing2}
   [Analysing the complexity of facility location problems with capacities, revenues, and closest assignments](https://openproceedings.org/2022/conf/inoc/INOC_2022_paper_22.pdf)
   
   C. Büsing, T. Gersing, S. Wrede.
-  _INOC open proceedings (2022)_
+  _INOC open proceedings (2022)._
+:::
+
+
+
+#### Code
+
+- 
+:::{.tight-spacing2}
+  [Code for "A Combinatorial Branch-and-Bound Algorithm for the Capacitated Facility Location Problem under Strict Customer Preferences"](https://zenodo.org/records/17524471)
+  
+  F. Engelhardt, S. Wrede.
+  _Zenodo (2025)_
 :::
