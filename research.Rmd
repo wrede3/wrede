@@ -19,10 +19,10 @@ If preferences are defined by assignment costs, the problem can be solved in pol
 
 - 
 :::{.tight-spacing2}
-  [Insights into the computational complexity of the single source capacitated facility location problem with customer preferences.](https://optimization-online.org/wp-content/uploads/2024/12/OO___EPLPO.pdf)
+  [Insights into the computational complexity of the single source capacitated facility location problem with customer preferences.](https://link.springer.com/article/10.1007/s10479-026-07110-3)
 
   C. Büsing, T. Gersing, S. Wrede.
-  _Preprint submitted (2025)._
+  _Annals of Operations Research (2026)._
 :::
 - 
 :::{.tight-spacing2}
@@ -57,7 +57,7 @@ Our algorithm serves as a reliable alternative to *Gurobi* if RAM is limited, ou
   [A combinatorial branch-and-bound algorithm for the capacitated facility location problem under strict customer preferences](https://optimization-online.org/?p=32480)
 
   C. Büsing, F. Engelhardt, S. Wrede.
-  _Preprint (2025)._ 
+  _Preprint submitted (2025)._ 
 :::
 -
 :::{.tight-spacing2}
